@@ -20,5 +20,3 @@ void setup() {
  }
 
 
- //Simulador del primer laboratorio en tinkercad 
-url="https://www.tinkercad.com/things/364UgtcIGdp-laboratoriopulsador?sharecode=0xZjyjnPLZFshVg1f1l4drz7Jps63yqBLbRMfXyrk4g"
