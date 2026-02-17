@@ -12,5 +12,3 @@ void loop(){
 	analogWrite(LED, BRILLO);	
 }
 
-//Simulador del segundo laboratorio en tinkercad 
-url="https://www.tinkercad.com/things/cRoQZJUasfq-laboratoriopotenciometro?sharecode=UCIaty1NZDFhsTirBbet9tZPRUryB8vMTUes_8ocuLA"
