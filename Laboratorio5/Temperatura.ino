@@ -1,14 +1,11 @@
-
-
-#include <DHT.h>		
+#include <DHT.h>	
 #include <DHT_U.h>
 
-int SENSOR = 2;			
+int SENSOR = 2;		
 int TEMPERATURA;
 int HUMEDAD;
 
-DHT dht(SENSOR, DHT22);		
-				
+DHT dht(SENSOR, DHT11);		
 void setup(){
   Serial.begin(9600);		
   dht.begin();			
