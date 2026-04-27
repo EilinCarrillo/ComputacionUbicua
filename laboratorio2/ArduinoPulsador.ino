@@ -1,22 +1,21 @@
-int PULSADOR = 2;
-int LED = 3;
-int ESTADO = LOW;
+int PULSADOR = 2;      
+int LED = 3;           
+int ESTADO = LOW;      
 
 void setup() {
-  pinMode(PULSADOR, INPUT);       
-  pinMode(LED, OUTPUT);           
- }
+  pinMode(PULSADOR, INPUT);   // Pulsador como entrada
+  pinMode(LED, OUTPUT);       // LED como salida
+}
 
- void loop(){
-  while(digitalRead(PULSADOR) == LOW ) {  
+void loop() {
+  while (digitalRead(PULSADOR) == LOW) { 
+    // Espera hasta presionar botón
   }
-  ESTADO = digitalRead(LED);             
-  digitalWrite(LED, !ESTADO);            
 
-  
-  while(digitalRead(PULSADOR) == HIGH ) {   
+  ESTADO = digitalRead(LED);     // Lee estado actual del LED
+  digitalWrite(LED, !ESTADO);    // Cambia estado del LED
 
+  while (digitalRead(PULSADOR) == HIGH) {
+    // Espera hasta soltar botón
   }
- }
-
-
+}
